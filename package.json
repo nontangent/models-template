@@ -1,0 +1,22 @@
+{
+  "name": "@templates/models",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build": "tsc",
+    "build:watch": "npm run build -- --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "firebase": "^8.0.2",
+    "moment": "^2.29.1",
+    "typescript": "^4.0.5"
+  }
+}
